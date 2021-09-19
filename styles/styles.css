@@ -1,0 +1,308 @@
+body {
+  font: 15px/1.5 arial, helvetica, sans-serif;
+  padding: 0px;
+  margin: 0px;
+  background-color: #f4f4f4;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+}
+
+header {
+  background: #35424a;
+  color: white;
+  padding: 15px 0px 15px 0px;
+  border-bottom: #af3213 5px solid;
+}
+
+header .header-inner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+header .header-inner nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style-type: none;
+  padding: unset;
+  margin: unset;
+}
+
+header .header-inner nav ul li {
+  margin-left: 20px;
+}
+
+header .header-inner nav ul a {
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+header .header-inner nav ul a:hover {
+  opacity: 0.5;
+}
+
+header .header-inner nav ul a:active {
+  color: #3f1e16;
+}
+
+header .header-inner nav ul .current a {
+  color: #af3213;
+}
+
+header .header-inner nav ul li:first-child {
+  margin-left: unset;
+}
+
+header .highlight {
+  color: #af3213;
+}
+
+#newsletter {
+  background: #35424a;
+}
+
+#newsletter .FlexNletter {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+#newsletter h1 {
+  color: #ffffff;
+}
+
+#newsletter input[type="email"] {
+  height: 25px;
+  width: 250px;
+  padding: 4px;
+  padding-top: 5px;
+}
+
+footer {
+  color: #ffffff;
+  background-color: #af3213;
+  text-align: center;
+  padding: 20px;
+  bottom: 0;
+  width: 100%;
+}
+
+#showcase {
+  min-height: 400px;
+  background: url(../images/showcase.jpg) no-repeat;
+  text-align: center;
+  color: #ffffff;
+}
+
+#showcase h1 {
+  font-size: 55px;
+  margin-top: 100px;
+  margin-bottom: 10px;
+}
+
+#showcase p {
+  font-size: 20px;
+}
+
+.button_1 {
+  font-weight: bold;
+  height: 38px;
+  background-color: #af3213;
+  color: #ffffff;
+  border-style: none;
+  margin-bottom: 5px;
+  padding-left: 20px;
+  padding-right: 20px;
+  cursor: pointer;
+}
+
+#boxes {
+  margin-top: 30px;
+}
+
+#boxes .box {
+  width: 30%;
+  padding: 10px;
+  text-align: center;
+}
+
+#boxes .box img {
+  height: 150px;
+}
+
+#boxes .FlexBoxes {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.about-us-inner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.about-us-inner article {
+  width: 60%;
+}
+
+.about-us-inner aside {
+  width: 30%;
+}
+
+.about-us-inner .dark {
+  color: #ffffff;
+  background-color: #35424a;
+  padding: 15px;
+}
+
+section .service-box {
+  border: 1px solid black;
+  padding: 10px;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  width: 60%;
+}
+
+section .flex-services {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+section .flex-services aside {
+  width: 30%;
+}
+
+section .dark {
+  color: #ffffff;
+  background-color: #35424a;
+  padding: 15px;
+}
+
+section .flex-services aside {
+  width: 35%;
+  height: 30%;
+}
+
+section input {
+  padding: 4px;
+  width: 90%;
+}
+
+section .service-boxes {
+  margin-bottom: 10px;
+}
+
+/*------------FOR TABLET--------------------*/
+@media (max-width: 768px) {
+  body header {
+    padding-bottom: 20px;
+  }
+  body header .header-inner {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  body header .header-inner ul li {
+    margin-left: 40px;
+  }
+  body .FlexNletter {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  body #showcase h1 {
+    margin-top: 30px;
+  }
+  body section .about-us-inner .dark {
+    margin-bottom: 15px;
+    margin-top: 15px;
+  }
+  /*------------FOR TABLET--------------------*/
+  /*------------FOR MOBILE--------------------*/
+}
+
+@media (max-width: 768px) and (max-width: 425px) {
+  body #newsletter h1 {
+    padding-left: 10px;
+    margin-top: 20px;
+  }
+  body #newsletter form {
+    padding-left: 40px;
+  }
+  body #newsletter form button {
+    margin-left: 70px;
+    margin-top: 10px;
+    padding-right: 30px;
+    padding-left: 30px;
+  }
+  body .FlexBoxes {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  body #boxes .box {
+    width: 100%;
+  }
+  body section .about-us-inner .dark {
+    margin-bottom: 15px;
+    margin-top: 15px;
+  }
+  body section .flex-services {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  body section .flex-services aside {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-right: 30px;
+    margin-bottom: 10px;
+  }
+  body section .service-box {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+/*------------FOR MOBILE--------------------*/
+/*# sourceMappingURL=styles.css.map */

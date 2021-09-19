@@ -1,0 +1,85 @@
+body {
+  font: 15px/1.5 arial, helvetica, sans-serif;
+  padding: 0px;
+  margin: 0px;
+  background-color: #f4f4f4;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+}
+
+header {
+  background: #35424a;
+  color: white;
+  padding: 15px 0px 15px 0px;
+  border-bottom: rgb(175, 50, 19) 5px solid;
+  .header-inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    nav {
+      ul {
+        display: flex;
+        list-style-type: none;
+        padding: unset;
+        margin: unset;
+        li {
+          margin-left: 20px;
+        }
+        a {
+          color: white;
+          text-decoration: none;
+          font-size: 16px;
+        }
+        a:hover {
+          opacity: 0.5;
+        }
+        a:active {
+          color: rgb(63, 30, 22);
+        }
+        .current a {
+          color: rgb(175, 50, 19);
+        }
+        li:first-child {
+          margin-left: unset;
+        }
+      }
+    }
+  }
+  .highlight {
+    color: rgb(175, 50, 19);
+  }
+}
+
+#newsletter {
+  .FlexNletter {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+  background: #35424a;
+  h1 {
+    color: #ffffff;
+  }
+  input[type="email"] {
+    height: 25px;
+    width: 250px;
+    padding: 4px;
+    padding-top: 5px;
+  }
+}
+
+footer {
+  color: #ffffff;
+  background-color: rgb(175, 50, 19);
+  text-align: center;
+  padding: 20px;
+  bottom: 0;
+  width: 100%;
+}

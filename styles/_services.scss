@@ -1,0 +1,34 @@
+section {
+  .service-box {
+    border: 1px solid black;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    width: 60%;
+  }
+  .flex-services {
+    display: flex;
+    justify-content: space-between;
+    aside {
+      width: 30%;
+    }
+  }
+  .dark {
+    color: #ffffff;
+    background-color: #35424a;
+    padding: 15px;
+  }
+
+  .flex-services aside {
+    width: 35%;
+    height: 30%;
+  }
+  input {
+    padding: 4px;
+    width: 90%;
+  }
+
+  .service-boxes{
+    margin-bottom: 10px;
+  }
+}

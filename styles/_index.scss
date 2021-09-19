@@ -1,0 +1,45 @@
+#showcase {
+    min-height: 400px;
+    background: url(../images/showcase.jpg) no-repeat;
+    text-align: center;
+    color: #ffffff;
+    h1 {
+      font-size: 55px;
+      margin-top: 100px;
+      margin-bottom: 10px;
+    }
+    p {
+      font-size: 20px;
+    }
+  }
+  
+  .button_1 {
+    font-weight: bold;
+    height: 38px;
+    background-color: rgb(175, 50, 19);
+    color: #ffffff;
+    border-style: none;
+    margin-bottom: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    cursor: pointer;
+  }
+  
+  #boxes {
+    margin-top: 30px;
+    .box {
+      width: 30%;
+      padding: 10px;
+      text-align: center;
+  
+      img {
+        height: 150px;
+      }
+    }
+  
+    .FlexBoxes {
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+    }
+  }

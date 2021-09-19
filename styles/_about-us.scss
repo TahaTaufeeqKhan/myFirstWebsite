@@ -1,0 +1,18 @@
+.about-us-inner {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    article {
+      width: 60%;
+    }
+    aside {
+      width: 30%;
+    }
+  
+    .dark {
+      color: #ffffff;
+      background-color: #35424a;
+      padding: 15px;
+    }
+  }

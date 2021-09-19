@@ -1,0 +1,84 @@
+/*------------FOR TABLET--------------------*/
+@media (max-width: 768px) {
+  body {
+    header {
+      padding-bottom: 20px;
+      .header-inner {
+        flex-direction: column;
+        ul {
+          li {
+            margin-left: 40px;
+          }
+        }
+      }
+    }
+    .FlexNletter {
+      flex-direction: column;
+    }
+
+    #showcase h1 {
+      margin-top: 30px;
+    }
+    section {
+      .about-us-inner{
+        .dark{
+          margin-bottom: 15px;
+          margin-top: 15px;
+        }
+      }
+    }
+  }
+  /*------------FOR TABLET--------------------*/
+
+  /*------------FOR MOBILE--------------------*/
+  @media (max-width: 425px) {
+    body {
+      #newsletter {
+        h1 {
+          padding-left: 10px;
+          margin-top: 20px;
+        }
+        form {
+          padding-left: 40px;
+          button {
+            margin-left: 70px;
+            margin-top: 10px;
+            padding-right: 30px;
+            padding-left: 30px;
+          }
+        }
+      }
+      .FlexBoxes {
+        flex-direction: column;
+      }
+      #boxes .box {
+        width: 100%;
+      }
+      section {
+        .about-us-inner{
+          .dark{
+            margin-bottom: 15px;
+            margin-top: 15px;
+          }
+        }
+        .flex-services {
+          flex-direction: column;
+          aside{
+            width: 50%;
+            margin-left: auto;
+            margin-right: auto;
+            padding-right: 30px;
+            margin-bottom: 10px;
+            
+          }
+        }
+        .service-box {
+          margin-left: auto;
+          margin-right: auto;
+        }
+      }
+    }
+  }
+}
+
+/*------------FOR MOBILE--------------------*/
